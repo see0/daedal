@@ -2,7 +2,7 @@ module Daedal
   module Attributes
     """Custom coercer for the type attribute"""
     class ScoreMode < Virtus::Attribute
-      ALLOWED_SCORE_MODES = [:avg, :total, :max, :none]
+      ALLOWED_SCORE_MODES = [:avg, :total, :max, :none, :multiply, :sum, :first, :max, :min]
       def coerce(value)
         unless value.nil?
           value = value.to_sym
