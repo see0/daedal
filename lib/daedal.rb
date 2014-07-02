@@ -46,9 +46,9 @@ require 'daedal/queries/fuzzy_query'
 require 'daedal/queries/query_string_query'
 require 'daedal/queries/term_query'
 require 'daedal/queries/terms_query'
+require 'daedal/queries/range_query'
 
-# aggs field
-require 'daedal/aggs/field/pattern'
 
 # aggs
 require 'daedal/aggs/stats_agg'
+require 'daedal/aggs/terms_agg'
