@@ -7,7 +7,7 @@ module Daedal
         unless value.nil?
           value = value.to_sym
           unless ALLOWED_SCORE_MODES.include? value
-            raise Virtus::CoercionError.new(value, 'Daedal::Attributes::MatchType')
+            raise Virtus::CoercionError.new(value, 'Daedal::Attributes::ScoreMode')
           end
         end
         value

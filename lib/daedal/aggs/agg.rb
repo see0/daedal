@@ -1,6 +1,6 @@
 module Daedal
-  module Facets
-    class Facet
+  module Aggs
+    class Agg
       # Virtus coercion is set to strict so that errors
       # are returned when supplied fields cannot be properly
       # coerced.
